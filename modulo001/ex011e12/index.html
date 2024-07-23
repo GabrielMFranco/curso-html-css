@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou 
+        simplesmente aumente e diminua o tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)"srcset="imagens/foto-p.png">
+        <source media="(max-width: 1000px)"srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png"alt="Imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzir audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML.</p>
+    <audio src="audios/corte-rapido.mp3"controls autoplay></audio>
+    <audio src="audios/ele-g0sta.mp3"controls autoplay></audio>
+    <!--compativel com MP3 WAV OGG-->
+    <audio preload="auto"autoplay controls>
+        <source src="audios/ele-g0sta.mp3" type="audio/mpeg">
+        <source src="audios/ele-g0sta.mp3"type="audio/ogg">
+        <source src="audios/ele-g0sta.mp3"type="audio/wav"> <!--evitar usar pq é pesado-->
+        <p>infelizmente seu navegador não consegue reproduzir o audio.</p>
+    <!--video mp4 webm ogv-->
+    </audio>
+    
+    <h1>Videos</h1>
+    <p>vamos aprender a reproduzir videos localmente</p>
+    <video width="560" controls autoplay loop>
+        <source src="videos/Video Jeso code.mp4"type="video/mp4">
+        <source src="videos/Video Jeso code.mkv"type="video/mp4">
+        <source src="videos/Video jeso 12.mp4"type="video/mp4">
+        <source src="videos/Video Jeso code.webm"type="video/webm">
+        <p>Seu navegador não tem suporte para reproduzir o video.</p>
+    </video>
+
+    <h1>inserindo video no YT</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NbfXjqDzago?si=9RG_orzQh77R7IGC&amp;start=1044" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

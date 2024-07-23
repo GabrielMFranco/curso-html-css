@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../faviconF.ico" type="image/x-icon">
+    <title>Fonte externa</title>
+    <style>
+        @font-face{
+            font-family:'texas' ;
+            src: url('texas.otf.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*Tipos de format ()
+             -opentype (otf)    -embedded-opentype
+             -truetype(ttf)     -truetype-aat (Apple advanced Typography)
+             -svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }h1{
+            font-family: 'texas', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed expedita dolores, sint autem aut quae neque fuga enim hic rerum ex ullam, porro quas nemo, eligendi nulla necessitatibus praesentium ipsam!</p>
+</body>
+</html>

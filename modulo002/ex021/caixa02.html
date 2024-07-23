@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../faviconF.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        header{
+            background-color: rgb(95, 104, 122);
+            padding: 10px;
+            margin: 15px;
+        }nav{
+            background-color: rgb(45, 62, 71);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.342);
+        }main{
+            background-color: rgb(50, 87, 87);
+            padding: 10px;
+            margin: 15px;
+            border-radius: 6px;
+        }article{
+            background-color: rgb(85, 120, 129);
+            padding: 5px;
+            margin: 5px;
+        }article > aside {
+            background-color: rgb(30, 43, 43);
+            text-align: right;
+            padding: 10px;
+            margin:5px;
+        }footer{
+            background-color: brown;
+            text-align: center;
+            padding: 5px;
+        }footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link2</a>
+        </nav>
+    </header>
+    <main>
+        <article id="assuntos">
+            <p>Esportes Politicas Tecnologia</p>
+        </article>
+        <article>
+        <h2>Noticia sobre o Brasil</h2>
+        <section>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Eaque vitae officia earum eveniet saepe repellat voluptate quo 
+        ducimus modi? Laudantium maiores consequatur in eius eum 
+        distinctio ipsam officia omnis fuga!</p>
+        </section>
+        <aside> Artigo escrito por Jeso</aside></article>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+</body>
+</html>
