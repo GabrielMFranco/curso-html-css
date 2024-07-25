@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -20,7 +20,7 @@ header{
     padding-bottom: 4vh;
 }
 h1{
-    font-family: ;
+    font-family:'Passion One' ;
     font-variant: small-caps;
     font-size: 6vw;
     padding-bottom: 10px;
