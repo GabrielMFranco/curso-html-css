@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url();
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    min-height: 100vh;
+}
+header{
+    background: black;
+    color:white;
+
+    text-align: center;
+    font-size: 1em ; 
+
+    padding-top:9vh;
+    padding-bottom: 4vh;
+}
+h1{
+    font-family: ;
+    font-variant: small-caps;
+    font-size: 6vw;
+    padding-bottom: 10px;
+}
+a{
+    font-weight: bolder;
+    text-decoration: none;
+    color:white
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    font-family:'Sriracha'; 
+    color:white;
+    padding-top: 10vh;
+    padding-bottom:10vh;
+}
+main div{
+    padding-top: 10vh;
+    padding-bottom:10vh;
+}
+main div > p{
+    background: rgba(0, 0, 0, 0.438);
+    font-size:3vw ;
+    text-shadow: 2px 2px 0px black;
+    display: inline-block;
+    margin-left: 35px;
+    padding-left: 5px;
+    
+}
+main > p{
+    font-size:3vw ;
+    padding-top: 10vh;
+    padding-bottom:10vh;
+    padding-left: 40px;
+}
+div#flor{ 
+
+    background:url('imagens/background001.jpg') right center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+div#livro{
+    background:url('imagens/background002.jpg') right center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding:10px;
+}
+
