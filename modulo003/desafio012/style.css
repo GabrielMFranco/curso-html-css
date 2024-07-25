@@ -35,7 +35,6 @@ a:hover{
 }
 main{
     font-family:'Sriracha'; 
-    color:white;
     padding-top: 10vh;
     padding-bottom:10vh;
 }
@@ -45,6 +44,7 @@ main div{
 }
 main div > p{
     background: rgba(0, 0, 0, 0.438);
+    color:white;
     font-size:3vw ;
     text-shadow: 2px 2px 0px black;
     display: inline-block;
@@ -54,6 +54,7 @@ main div > p{
 }
 main > p{
     font-size:3vw ;
+    color: black;
     padding-top: 10vh;
     padding-bottom:10vh;
     padding-left: 40px;
