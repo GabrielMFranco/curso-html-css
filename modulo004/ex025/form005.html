@@ -7,18 +7,20 @@
     <title>Formulário</title>
 </head>
 <body>
-    <fieldset>
-        <legend>Sexo</legend>
-        <input type="radio" name="sx" id="isxmas"><label for="isxmas">Masculino</label>
-        <input type="radio" name="sx" id="isxfem"><label for="isxfem">Feminino</label>
-    </fieldset>
-    <fieldset>
-        <legend>Esportes favoritos</legend>
-        <input type="checkbox" name="esfut" id="iesfut"><label for="iesfut">Futebol</label><br>
-        <input type="checkbox" name="esten" id="iesten"><label for="iesten">Tênis</label><br>
-        <input type="checkbox" name="esnat" id="iesnat"><label for="iesnat">Natação</label><br>
-        <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">Basquete</label><br>
-    </fieldset>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sx" id="isxmas"><label for="isxmas">Masculino</label>
+            <input type="radio" name="sx" id="isxfem"><label for="isxfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"><label for="iesfut">Futebol</label><br>
+            <input type="checkbox" name="esten" id="iesten"><label for="iesten">Tênis</label><br>
+            <input type="checkbox" name="esnat" id="iesnat"><label for="iesnat">Natação</label><br>
+            <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">Basquete</label><br>
+        </fieldset>
+    </form>
     <p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
